@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+header{
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    background-color: thistle;
+}
+
+.logo{
+    font-size: large;
+    /* margin-left: 10%; */
+}
+
+.header-left{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar {
+    display: relative;
+    margin-right: 20px;
+    right: calc(100vh-20px);
+    height: 16px;
+    width: 16px;
+}
+
+.caption{
+    height:150px;
+    width: auto;
+    position: relative;
+    bottom: 15%;
+}
