@@ -1,38 +1,52 @@
+
+
 body {
-    background-color: black;
+    /* background-color: #000000; */
     color: whitesmoke;
+    background-image: url(https://www.spacex.com/static/images/backgrounds/home_feature.webp);
+    background-size: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     height: 50px;
     width: 100%;
     padding: 20px;
-    background-color: thistle;
-}
-
-.logo{
-    font-size: large;
-    /* margin-left: 10%; */
-}
-
-.header-left{
-    width: 60%;
-    height: 50%;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
 }
 
-.sidebar {
-    display: relative;
-    margin-right: 20px;
-    right: calc(100vh-20px);
+h1 {
+    font-size: xx-large;
+}
+
+h3 {
+    font-size: large;
+}
+.logo{
+    width: 133px;
+    height: 30px
+    /* margin-left: 10%; */
+}
+
+.sidebar-button{
+    margin-right: 30px;
     height: 16px;
-    width: 16px;
+    width: 16px
 }
 
 .caption{
     height:150px;
     width: auto;
     position: relative;
-    bottom: 15%;
+    left: 150px;
+    bottom: -55vh;
+}
+
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly; 
+    margin: 0 0 10px 10px;
 }
